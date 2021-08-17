@@ -1,0 +1,33 @@
+{
+  "name": "simple-timetable",
+  "version": "1.0.0",
+  "description": "Easily create a simple timetable with repeating activites each week",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage",
+    "build": "tsc --declaration"
+  },
+  "author": "JamesYL",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
